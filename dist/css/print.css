@@ -168,12 +168,9 @@
 }
 .swagger-section .swagger-ui-wrap table thead tr th {
   padding: 5px;
-  font-size: 0.9em;
+  font-size: 1em;
   color: #666666;
   border-bottom: 1px solid #999999;
-}
-.swagger-section .swagger-ui-wrap table tbody tr:last-child td {
-  border-bottom: none;
 }
 .swagger-section .swagger-ui-wrap table tbody tr.offset {
   background-color: #f0f0f0;
@@ -909,8 +906,8 @@
   color: #10a54a;
 }
 .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.content {
-  background-color: #ebf7f0;
-  border: 1px solid #c3e8d1;
+  background-color: white;
+  border: 1px solid gray;
 }
 .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.content h4 {
   color: #10a54a;

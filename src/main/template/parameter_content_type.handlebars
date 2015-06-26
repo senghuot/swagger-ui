@@ -1,10 +1,9 @@
-<label for="{{parameterContentTypeId}}">Parameter content type:</label>
-<select name="parameterContentType" id="{{parameterContentTypeId}}">
+<ul name="parameterContentType" id="{{parameterContentTypeId}}">
 {{#if consumes}}
   {{#each consumes}}
-  <option value="{{{this}}}">{{{this}}}</option>
+  	<li value="{{{this}}}">{{{this}}}</li>
   {{/each}}
 {{else}}
-  <option value="application/json">application/json</option>
+  <li value="application/json">application/json</li>
 {{/if}}
-</select>
+</ul>

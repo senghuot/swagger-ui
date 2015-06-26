@@ -1,4 +1,4 @@
-<td class='code required'><label for='{{valueId}}'>{{name}}</label></td>
+{{!-- <td class='code required'><label for='{{valueId}}'>{{name}}</label></td>
 <td>
 	{{#if isBody}}
 		{{#if isFile}}
@@ -28,3 +28,25 @@
 </td>
 <td>{{{paramType}}}</td>
 <td><span class="model-signature"></span></td>
+ --}}
+
+<tr class="GrayTableHead">
+	<td>Description</td>
+	<td>Supported Content Types</td>
+</tr>
+<tr>
+	<td>{{{description}}}</td>
+	<td><div class="parameter-content-type" /></td>
+</tr>
+
+<tr class="GrayTableHead">
+	<td colspan="2">Content Body</td>
+</tr>
+<tr>
+	<td colspan="2">{{{paramType}}}, This function requires as its arguments a list-item-batch element containing a list-item child element for each item to be added. The list-item elements can contain the following child elements:</td>
+</tr>
+<tr>
+	<td colspan="2"><span class="model-signature"></span></td>
+</tr>
+
+
